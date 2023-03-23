@@ -1,0 +1,8 @@
+n = int(input('Podaj 1 liczbe: '))
+m = int(input('Podaj 2 liczbe wieksza od poprzedniej: '))
+x = 0
+c = 0
+while c < m:
+    c = n * x
+    x += 1
+    print(c)
