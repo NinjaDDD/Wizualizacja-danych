@@ -1,0 +1,10 @@
+def dzielniki(x):
+    c = 0
+    for i in range(1, int(x / 2) + 1):
+        if x % i == 0:
+            c = c + i
+    return c
+
+for x in range (1, 10000):
+    if dzielniki(x) == x:
+        print(x, ' jest liczba doskonala')
