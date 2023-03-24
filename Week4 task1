@@ -1,0 +1,15 @@
+list1 = [x for x in range (21) if x % 2 == 0]
+print(list1)
+a = 'ala ma kota a kot ma ole'
+a = a.split()
+list2 = [len(a[x]) for x in range (len(a))]
+print(list2)
+list3 = [x for x in range(1, 100) if x % 3 == 0 and x % 5 == 0]
+print(list3)
+b = 'slowo'
+v = 'slawa'
+b = b + v
+list4 = [b[x] for x in range (len(b))]
+print(list4)
+list5 = {a[x]: list2[x] for x in range (len(a))}
+print(list5)
